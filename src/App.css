@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.footer {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height: 50px;
+  background-color:cornsilk;
+  text-align: center;
+  color: black;
+}
+
+.timer{
+  text-align:center;
+  
+}
+
+mark{
+color:darkgreen;
+}
+.rowprice{
+  color:white;
+}/*
+.brownback{
+  background-image: url('./Images/lightimg.jpg');
+}*/
+hr{
+  height: 4px;
+  background-color:white;
+}
+
+.titleofapp{
+  color: rgb(252, 0, 0);
+}
+
+.adminservice{
+  font-size:large;
+  color: darkcyan;
+  text-align: center;
+}
+
+.adservices{
+  background-image: url('Images/blackimg.jpg');
+  color: white;
+}
+
+
+/*
+.backimg{
+  background-image: url('Images/allfood.jpg');
+}
+
+.project{
+  background-image: url('Images/food2img.jpg');
+}*/
+.navbar-default{
+  background-color: cornsilk;
+}
+#collasible-nav-dropdown{
+  color: rgb(139, 0, 116);
+  
+ 
+
+  
+}
+#responsive-navbar-nav{
+padding-left: 100px;
+}
+
+ClipLoader{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.errorMessage {
+  color: white;
+  font-size:medium;
+  display: relative;
+}
+h2 {
+  text-shadow: 2px 2px 5px black;
+}
+
+.f{
+  font-family: Georgia;
+}
+
+.topnav-right {
+  float: right;
+}
+.bgContact {
+  background-image: url('./Images/contactUs.jpg');
+  height: 90%;
+  width: 90%;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+.row1 {
+  background-color: #000000;
+  color: #FFFFFF;
+  float: right;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.left
+{float:"left";}
+.right
+{float:"right";}
